@@ -1,6 +1,5 @@
 # Metabolic_Syndrome_Classification
-## Location of the Data Set: https://data.world/informatics-edu/metabolic-syndrome-prediction
-## Discovering the item sales per Outlet type and Size
+## Discovering the health trends that lead to a metabolic syndrome
 
 **James Belk**: 
 
