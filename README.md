@@ -9,7 +9,7 @@
 
 ### Business problem:
 
-Discover the sales per Outlet Size and Type
+Discover the risk of an individual to have a metabolic syndrome. 
 
 ### Data:
 Metabolic Syndrome Dataset - https://data.world/informatics-edu/metabolic-syndrome-prediction
