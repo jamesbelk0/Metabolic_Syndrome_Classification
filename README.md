@@ -1,5 +1,5 @@
 # Metabolic_Syndrome_Classification
-## Discovering the health trends that lead to a metabolic syndrome
+## Discovering the health trends that lead to the metabolic syndrome
 
 **James Belk**: Due to my experience in the health and fitness field this issue is incredibly important to the longevity to an individuals life-span and standard of living. Have a better understanding of the markers that can lead to an individuals development of a metabolic disease can help prevent them from occuring. Heart disease, diabetes, and hypertension are preventable to an extent and knowledge is power.
 
