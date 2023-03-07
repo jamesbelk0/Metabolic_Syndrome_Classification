@@ -62,29 +62,37 @@ The chart above shows the breakdown of the individuals with a metabolic syndrome
   - Logistic Regression Model
   - KN Neighbors Classifier Model
   - Random Forest Classifier Model
+  - XGBoost Model
 ## Models Evaluated & Results
-- Linear Regression Model (Testing Set):
-  - MAE: 847.1571 
-  - MSE: 1,297,218.6566 
-  - RMSE: 1,138.9551 
-  - R2: 0.5617
+- Logistic Regression Model (Testing Set):
+  - Precision: .83
+  - Recall: .91 
+  - F1-Score: 87 
+  - Accuracy: .82
 
-- Decision Tree Regressor Model (Testing Set):
-  - MAE: 1,138.5329 
-  - MSE: 2,255,705.5459 
-  - RMSE: 1,501.9006 
-  - R2: 0.2378
+- KnNeighbor Classifier Model (Testing Set):
+  - Precision: .82
+  - Recall: .92 
+  - F1-Score: 87 
+  - Accuracy: .81
 
-- Tuned Decision Tree Regressor Model (Testing Set):
-  - MAE: 762.6076 
-  - MSE: 1,172,166.0943 
-  - RMSE: 1,082.6662 
-  - R2: 0.6039
+- Random Forest Classifier Model (Testing Set):
+  - Precision: .88
+  - Recall: .92
+  - F1-Score: .90 
+  - Accuracy: .87
+ - XGBoost Classifier Model (Testing Set):
+  - Precision: .91
+  - Recall: .94
+  - F1-Score: .93 
+  - Accuracy: .90
  
- - The final model chosen was a `Tuned Decision Tree` with the max_depth tuned to 5.
- - The Mean Absolute Error was off by about `24.40`.
- - The Mean Squared Error was `54,007`.
- - The Root Meaqn Squared Error had a calculation of `25.2354`.
+ - The final model chosen was a `XGBoost` tuned with the max_depth tuned to 8, n_estimators to 140 and max_leaves to 9.
+ - The False Positive rate is .055.
+ - The Falst Negative rate is .19.
+ - The Accuracy for this modelis at 90%.
  
-
+# Business Solution
+ - The XGBoost model would allow for a more confident diagnosis for the individual and possibly prevent the hospital or practice from missing a diagnosis based on previous markers. If an individuals blood glucose levels, waist circumference, or BMI are tracking along with the markers in the dataset the chances of the individual being at risk are higher. 
+ - My recommendation would be to collect this data and compare findings further expanding our knowledge and preventing possible misdiagnosis in the future. 
 For any additional questions, please contact **jamesbelk0@gmail.com**
