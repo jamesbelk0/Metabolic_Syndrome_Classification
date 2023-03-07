@@ -37,32 +37,31 @@ For this dataset, there are 2,401 rows and 15 columns
 
 ### Exploratory Data Analysis
 
- - During the exploratory data analysis, a bar chart and histogram were used to visualize the quantities of Outlet Sizes and Average Sales
+ - During the exploratory data analysis, a bar chart and histogram were used to visualize the markers of a metabolic syndrome.
  - This provides a better understanding of the quantity of each for comparisons later.
  
  <p align = "center"> 
-  <img src = "https://github.com/jamesbelk0/sales_predictions/blob/d8294734469af5fb95f3c375ab6f771c52e31d7c/Average_Sale_Size.png">
+  <img src = "https://github.com/jamesbelk0/Metabolic_Syndrome_Classification/blob/1a7e1961bd2ba3a1c8d21a338d22c46dcc8b4649/bloodglucose_levels.png">
 </p>
 
- - This shows the most sales are sold through the Medium Outlet Size compared to the High and Small. Ruling out an ordinal approach.
+The chart above shows the breakdown of blood glucose levels, a major marker for a metabolic syndrome. 
 
+- The median of the dataset is at a bloodglucose level of 99 which is the normal rate of a fasting blood glusocse level.
 ## Explanatory Visuals
 
 <p align = "center"> 
-  <img src = "https://github.com/jamesbelk0/sales_predictions/blob/d8294734469af5fb95f3c375ab6f771c52e31d7c/Outlet_Size_Count.png">
+  <img src = "https://github.com/jamesbelk0/Metabolic_Syndrome_Classification/blob/1a7e1961bd2ba3a1c8d21a338d22c46dcc8b4649/meta_syndrome_bar.png">
 </p>
 
-This shows the breakdown of the total of Outlet Sizes
+The chart above shows the breakdown of the individuals with a metabolic syndrome. 
 
-- Small: 2388
-- Medium: 2793
-- High: 932
-- Missing: 2410
+- As clearly shown, the BMI of the individuals with a metabolic syndrome disease have significantly higher BMI than those without. While BMI is an archaic approach to health markers, it still shows a snapshot of an individuals health. This combined with an individuals blood glucose levels and waist circumference can help present a fuller picture. 
+  - The CDC lists that a 'healthy' BMI can range anywhere from 18.5 to 24.9. This means the individuals in the 25-30+ range show a greater risk for health risks.
 
 ### Machine Learning Using the Following Models:
-  - Linear Regression Model
-  - Decision Tree Regressor Model
-  - Tuned Decision Tree Regressor Model
+  - Logistic Regression Model
+  - KN Neighbors Classifier Model
+  - Random Forest Classifier Model
 ## Models Evaluated & Results
 - Linear Regression Model (Testing Set):
   - MAE: 847.1571 
