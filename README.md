@@ -89,9 +89,9 @@ The chart above shows the breakdown of the individuals with a metabolic syndrome
   - Accuracy: .90
  
  - The final model chosen was a `XGBoost` tuned with the max_depth tuned to 8, n_estimators to 140 and max_leaves to 9.
- - The False Positive rate is .055.
- - The Falst Negative rate is .19.
- - The Accuracy for this modelis at 90%.
+  - The False Positive rate is .055.
+  - The Falst Negative rate is .19.
+  - The Accuracy for this modelis at 90%.
  
 # Business Solution
  - The XGBoost model would allow for a more confident diagnosis for the individual and possibly prevent the hospital or practice from missing a diagnosis based on previous markers. If an individuals blood glucose levels, waist circumference, or BMI are tracking along with the markers in the dataset the chances of the individual being at risk are higher. 
