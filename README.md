@@ -26,7 +26,7 @@ For this dataset, there are 2,401 rows and 15 columns
 * waistcirc - size of the individuals waist
 * bmi - dated way to measure body fat percentage
 * albuminuria - sign of kidnet disease
-* uralbcr - need to do more research
+* uralbcr - toxins in the blood
 * uricacid - percentage of broken down substances
 * bloodglucose - blood test to screen for sugar
 * hdl - "good" cholesterol
