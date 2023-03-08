@@ -51,11 +51,12 @@ The chart above shows the breakdown of blood glucose levels, a major marker for 
 
 <p align = "center"> 
   <img src = "https://github.com/jamesbelk0/Metabolic_Syndrome_Classification/blob/1a7e1961bd2ba3a1c8d21a338d22c46dcc8b4649/meta_syndrome_bar.png">
+  <img src = "https://github.com/jamesbelk0/Metabolic_Syndrome_Classification/blob/9849dad7828c5dd6d2a4b79daed4239a0d9b3ab3/waistcirc.png">
 </p>
 
 The chart above shows the breakdown of the individuals with a metabolic syndrome. 
 
-- As clearly shown, the BMI of the individuals with a metabolic syndrome disease have significantly higher BMI than those without. While BMI is an archaic approach to health markers, it still shows a snapshot of an individuals health. This combined with an individuals blood glucose levels and waist circumference can help present a fuller picture. 
+- As clearly shown, the BMI and Waist Circumference of the individuals with a metabolic syndrome disease have significantly higher than those without the markers. While BMI is an archaic approach to health markers, it still shows a snapshot of an individuals health. This combined with an individuals blood glucose levels and waist circumference can help present a fuller picture of an individuals health. 
   - The CDC lists that a 'healthy' BMI can range anywhere from 18.5 to 24.9. This means the individuals in the 25-30+ range show a greater risk for health risks.
 
 ### Machine Learning Using the Following Models:
