@@ -50,7 +50,7 @@ The chart above shows the breakdown of blood glucose levels, a major marker for 
 ## Explanatory Visuals
 
 <p align = "center"> 
-  <img src = "https://github.com/jamesbelk0/Metabolic_Syndrome_Classification/blob/1a7e1961bd2ba3a1c8d21a338d22c46dcc8b4649/meta_syndrome_bar.png">
+  <img src = "https://github.com/jamesbelk0/Metabolic_Syndrome_Classification/blob/33c71fc247592bd08e854b2ba0c78d4871090508/bmi.png">
   <img src = "https://github.com/jamesbelk0/Metabolic_Syndrome_Classification/blob/9849dad7828c5dd6d2a4b79daed4239a0d9b3ab3/waistcirc.png">
 </p>
 
